@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 1.34rem 0;
+}
+
+input,
+textarea,
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 0.625rem 0.313rem;
+  background-color: var(--white);
+  font-weight: inherit;
+  margin-bottom: 1.25rem;
+}
+
+textarea {
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+input:valid,
+textarea:valid {
+  color: var(--orange);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  background-color: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+}
