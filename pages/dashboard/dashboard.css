@@ -9,13 +9,13 @@
   background-color: var(--white);
   border-radius: 5px;
   padding: 0.625rem;
-  box-shadow: 0 0 10px #0000001a;
+  box-shadow: 0 0 10px var(--black-russian);
   cursor: pointer;
 }
 
 img {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -42,9 +42,3 @@ button {
   cursor: inherit;
 }
 
-/* max-width: 425px */
-@media(max-width: 26.563rem) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
