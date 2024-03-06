@@ -1,0 +1,23 @@
+:root {
+  --white: #ffffff;
+  --light-gray: #f1f2f6;
+  --orange: #ff8600;
+  --black-russian: #0000001a;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  max-width: 75rem;
+  margin: 1.25rem auto;
+  padding: 0 1.25rem;
+}
+
+
